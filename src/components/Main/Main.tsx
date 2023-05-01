@@ -29,6 +29,18 @@ const App = styled.div`
 `
 
 export const Main = () => {
+
+	interface Student {
+		id:string;
+		name:string;
+	} 
+
+	let a:Student ={id:'2',name:'ali'};
+ 
+	let b:Student={id:'3',name:'akbar'};
+
+
+
     return (<App>
         <div className="products">
         </div>
